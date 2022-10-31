@@ -1,9 +1,12 @@
 import './App.css';
+import HomePage from "../HomePage";
+import NavBar from '../../components/NavBar';
 
 function App() {
   return (
     <div className="App">
-     <h1>hello world</h1>
+      <NavBar/>
+      <HomePage/>
     </div>
   );
 }
