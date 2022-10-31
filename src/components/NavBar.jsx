@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -14,28 +15,44 @@ export default function NavBar() {
       <nav className="site-nav">
         <div className="container">
           <div className="site-navigation">
-            <a href="index.html" className="logo float-left m-0">
+            <Link
+              to="/"
+              style={{ textDecoration: "none" }}
+              className="logo float-left m-0"
+            >
               Art Window
-            </a>
+            </Link>
 
             <ul className="js-clone-nav d-none d-lg-inline-noone text-left site-menu">
-              <li class="active">
-                <a href="index.html">Home</a>
+              <li>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="#">Pages</a>
+                <Link to="/pages" style={{ textDecoration: "none" }}>
+                  Pages
+                </Link>
               </li>
               <li>
-                <a href="">Portfolio</a>
+                <Link to="/portfolio" style={{ textDecoration: "none" }}>
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <a href="">Elements</a>
+                <Link to="/elements" style={{ textDecoration: "none" }}>
+                  Elements
+                </Link>
               </li>
               <li>
-                <a href="">About</a>
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                  About
+                </Link>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <Link to="/contacts" style={{ textDecoration: "none" }}>
+                  Contact Us
+                </Link>
               </li>
             </ul>
 
