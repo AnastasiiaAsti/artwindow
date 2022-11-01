@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div class="site-footer">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-12">
-            <div class="widget">
+    <div className="site-footer">
+      <div className="container">
+        <div className="row justify-content-between">
+          <div className="col-lg-12">
+            <div className="widget">
               <h3>About</h3>
               <p>
                 Far far away, behind the word mountains, far from the countries
@@ -14,12 +14,12 @@ export default function Footer() {
                 they live.
               </p>
             </div>
-            <div class="widget">
+            <div className="widget">
               <h3>Connect with us</h3>
-              <ul class="social list-unstyled">
+              <ul className="social list-unstyled">
                 <li>
                   <a href="#">
-                    <span class="icon-facebook"></span>
+                    <span className="icon-facebook"></span>
                   </a>
                 </li>
                 <li>
@@ -29,17 +29,17 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-instagram"></span>
+                    <span className="icon-instagram"></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-dribbble"></span>
+                    <span className="icon-dribbble"></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-linkedin"></span>
+                    <span className="icon-linkedin"></span>
                   </a>
                 </li>
               </ul>
