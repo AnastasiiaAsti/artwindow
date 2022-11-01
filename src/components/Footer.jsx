@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div class="site-footer fixed-bottom">
+    <div class="site-footer">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <div class="widget">
               <h3>About</h3>
               <p>
