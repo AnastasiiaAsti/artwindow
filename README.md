@@ -1,7 +1,10 @@
 # Art Window
 
-# Tech used: React, Bootstrap, Html, CSS, JavaScript 
+# Tech used: 
 
+React, HTML5, CSS3, JavaScript 
 
-<img width="840" alt="Screenshot 2022-11-01 at 2 59 44 PM" src="https://user-images.githubusercontent.com/97631462/211643806-395325e9-95ff-49a4-b518-e571ac51399b.png">
-<img width="840" alt="Screenshot 2022-11-01 at 2 59 55 PM" src="https://user-images.githubusercontent.com/97631462/211643817-d8059fc0-1ebf-4068-8862-4e35acca9fb8.png">
+<img width="200" alt="artwindow_1" src="https://github.com/AnastasiiaAsti/artwindow/assets/97631462/990d2cae-f910-4cf6-8b0e-744181241111">
+<img width="200" alt="artwindow_2" src="https://github.com/AnastasiiaAsti/artwindow/assets/97631462/5c0bf9dc-0bb5-49dd-ab3f-90e0b539d352">
+<img width="200" alt="artwindow_3" src="https://github.com/AnastasiiaAsti/artwindow/assets/97631462/b9738bcc-fadc-45f8-ab19-3da4fc7b7d15">
+<img width="200" alt="artwindow_4" src="https://github.com/AnastasiiaAsti/artwindow/assets/97631462/2b1af19a-9462-49ee-9089-f42b0df7e5f3">
