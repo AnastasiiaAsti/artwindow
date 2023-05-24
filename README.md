@@ -1,5 +1,7 @@
 # Art Window
 
+Immerse yourself in the captivating realm of an art portfolio showcased through a simple yet elegant website. Experience a visual feast as you explore a collection of exquisite artworks, carefully curated to evoke emotions, spark imagination, and transport you to different dimensions.
+
 # Tech used: 
 
 React, HTML5, CSS3, JavaScript 
