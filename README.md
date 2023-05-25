@@ -1,4 +1,4 @@
-# Art Window
+# Art Window (In Development)
 
 Immerse yourself in the captivating realm of an art portfolio showcased through a simple yet elegant website. Experience a visual feast as you explore a collection of exquisite artworks, carefully curated to evoke emotions, spark imagination, and transport you to different dimensions.
 
