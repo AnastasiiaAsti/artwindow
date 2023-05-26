@@ -1,0 +1,28 @@
+.met-search-bar {
+    margin-top: 20px;
+}
+
+
+.met-search-bar input {
+    padding: 10px;
+    font-size: 20px;
+    width: 80%;
+    height: 60%;
+    border: none;
+    border-radius: 10px;
+    background: #e8e5de;
+    box-shadow: -20px 20px 26px #c5c3bd,
+        20px -20px 26px #ffffff;
+    outline: #c5c3bd;
+}
+
+
+.btn {
+    height: 60%;
+    width: 20%;
+    margin: 20px;
+    border-radius: 10px;
+    background: #e8e5de;
+    box-shadow: -20px 20px 26px #c5c3bd,
+        20px -20px 26px #ffffff;
+}

@@ -5,7 +5,7 @@ export default function ImageSlider() {
     <div className="section pt-0">
       <div className="container">
         <div className="col-lg-7 mx-auto text-center">
-          <h2>Images</h2>
+          <h2>Get Inspired</h2>
           <div className="line my-3 mx-auto"></div>
         </div>
         <div className="row">

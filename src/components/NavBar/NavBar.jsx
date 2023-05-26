@@ -1,4 +1,4 @@
-import React from "react";
+import "./NavBar.css";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -30,8 +30,8 @@ export default function NavBar() {
                 </Link>
               </li>
               <li>
-                <Link to="/pages" style={{ textDecoration: "none" }}>
-                  Pages
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                  About
                 </Link>
               </li>
               <li>
@@ -40,15 +40,16 @@ export default function NavBar() {
                 </Link>
               </li>
               <li>
-                <Link to="/elements" style={{ textDecoration: "none" }}>
-                  Elements
+                <Link to="/metmuseum" style={{ textDecoration: "none" }}>
+                  Met Museum
                 </Link>
               </li>
               <li>
-                <Link to="/about" style={{ textDecoration: "none" }}>
-                  About
+                <Link to="/louvremuseum" style={{ textDecoration: "none" }}>
+                  Louvre Museum
                 </Link>
               </li>
+
               <li>
                 <Link to="/contacts" style={{ textDecoration: "none" }}>
                   Contact Us
