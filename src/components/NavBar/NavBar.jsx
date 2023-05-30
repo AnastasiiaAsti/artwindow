@@ -35,18 +35,8 @@ export default function NavBar() {
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" style={{ textDecoration: "none" }}>
-                  Portfolio
-                </Link>
-              </li>
-              <li>
                 <Link to="/metmuseum" style={{ textDecoration: "none" }}>
                   Met Museum
-                </Link>
-              </li>
-              <li>
-                <Link to="/louvremuseum" style={{ textDecoration: "none" }}>
-                  Louvre Museum
                 </Link>
               </li>
 
