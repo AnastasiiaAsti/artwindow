@@ -51,14 +51,15 @@ export default function MetMuseum() {
       <div className="met-title">
         <h1 class="hero-heading">The Metropolitan Museum of Art Collection</h1>
       </div>
-      <div className="met-search-bar">
+      <div className="m-5">
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           required
           placeholder="start typing here..."
+          className="form-control m-auto"
         ></input>
-        <button className="btn" onClick={handleSearch}>
+        <button className="btn mt-5" onClick={handleSearch}>
           search
         </button>
       </div>

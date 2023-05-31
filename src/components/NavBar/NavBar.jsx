@@ -15,13 +15,7 @@ export default function NavBar() {
       <nav className="site-nav">
         <div className="container">
           <div className="site-navigation">
-            <Link
-              to="/"
-              style={{ textDecoration: "none" }}
-              className="logo float-left m-0"
-            >
-              Art Window
-            </Link>
+            <h1 className="logo float-left m-0">Art Window</h1>
 
             <ul className="js-clone-nav d-none d-lg-inline-noone text-left site-menu">
               <li>

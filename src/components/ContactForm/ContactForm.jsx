@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import "./ContactForm.css";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -33,13 +34,27 @@ export default function ContactForm() {
       ref={form}
       onSubmit={sendEmail}
     >
-      <label className="">Name</label>
-      <input className="form-control" type="text" name="user_name" />
-      <label>Email</label>
-      <input className="form-control" type="email" name="user_email" />
-      <label>Message</label>
-      <textarea className="form-control" name="message" />
-      <input className="btn" type="submit" value="Send" />
+      <label></label>
+      <input
+        className="form-control mb-4"
+        type="text"
+        name="user_name"
+        placeholder="name..."
+      />
+      <label></label>
+      <input
+        className="form-control mb-4"
+        type="email"
+        name="user_email"
+        placeholder="email..."
+      />
+      <label></label>
+      <textarea
+        className="form-control"
+        name="message"
+        placeholder="your message..."
+      />
+      <input className="btn mt-5" type="submit" value="Send" />
       <ToastContainer />
     </form>
   );
