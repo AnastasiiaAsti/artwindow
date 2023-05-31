@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -9,29 +10,29 @@ export default function Footer() {
           <h3>Connect with us</h3>
           <ul className="social list-unstyled">
             <li>
-              <a href="#">
+              <Link to="/">
                 <span className="icon-facebook"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <span class="icon-twitter"></span>
-              </a>
+              <Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <span className="icon-instagram"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="/">
                 <span className="icon-dribbble"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link href="/">
                 <span className="icon-linkedin"></span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

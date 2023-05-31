@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <>
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close">
-            <span class="icofont-close js-menu-toggle"></span>
+      <div className="site-mobile-menu site-navbar-target">
+        <div className="site-mobile-menu-header">
+          <div className="site-mobile-menu-close">
+            <span className="icofont-close js-menu-toggle"></span>
           </div>
         </div>
-        <div class="site-mobile-menu-body"></div>
+        <div className="site-mobile-menu-body"></div>
       </div>
       <nav className="site-nav">
         <div className="container">
@@ -30,7 +30,7 @@ export default function NavBar() {
                 </Link>
               </li>
               <li>
-                <Link to="/about" style={{ textDecoration: "none" }}>
+                <Link to="/blog" style={{ textDecoration: "none" }}>
                   About
                 </Link>
               </li>
@@ -41,7 +41,7 @@ export default function NavBar() {
               </li>
 
               <li>
-                <Link to="/contacts" style={{ textDecoration: "none" }}>
+                <Link to="/contact" style={{ textDecoration: "none" }}>
                   Contact Us
                 </Link>
               </li>
