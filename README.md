@@ -4,7 +4,8 @@ Immerse yourself in the captivating realm of an art portfolio showcased through 
 
 # Tech used: 
 
-React, HTML5, CSS3, JavaScript <br>
+React, HTML5, CSS3, JavaScript<br>
+Emailjs, Toastify, reCaptcha  <br>
 APIs: The Metropolitan Museum of Art
 
 <img width="200" alt="artwindow_1" src="https://github.com/AnastasiiaAsti/artwindow/assets/97631462/990d2cae-f910-4cf6-8b0e-744181241111">
