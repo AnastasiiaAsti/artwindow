@@ -40,6 +40,7 @@ export default function ContactForm() {
         type="text"
         name="user_name"
         placeholder="name..."
+        required
       />
       <label></label>
       <input
@@ -47,12 +48,14 @@ export default function ContactForm() {
         type="email"
         name="user_email"
         placeholder="email..."
+        required
       />
       <label></label>
       <textarea
         className="form-control"
         name="message"
         placeholder="your message..."
+        required
       />
       <input className="btn mt-5" type="submit" value="Send" />
       <ToastContainer />
